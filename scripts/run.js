@@ -18,7 +18,7 @@ const main = async () => {
 
   const beerTxn = await beerContract.buyBeer(
     "This is beer #1",
-    "idris",
+    "Francis",
     ethers.utils.parseEther("0.001")
   );
   await beerTxn.wait();
